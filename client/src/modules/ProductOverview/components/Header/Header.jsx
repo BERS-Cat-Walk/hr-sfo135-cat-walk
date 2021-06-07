@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './HeaderStyles.js';
 
 class Header extends React.Component {
     constructor() {
@@ -9,6 +10,7 @@ class Header extends React.Component {
     return (
       <div>
         Header Component
+        <Button>Button</Button>
       </div>
     )
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header.jsx';
+import Header from './components/Header/Header.jsx';
 
 class ProductOverview extends React.Component {
     constructor() {

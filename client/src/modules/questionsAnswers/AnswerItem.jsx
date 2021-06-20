@@ -68,7 +68,7 @@ const Answer = (props) => {
         {(props.answer.photos.length !== 0) ?
            <div className={style.pictures}>
             {(props.answer.photos.map(photo =>
-              <img src={photo.url} alt="Answer Image" key={photo.id}></img>)
+              <img className={style.answerimage} src={photo.url} alt="Answer Image" key={photo.id}></img>)
             )}
           </div> : <></>
       }
